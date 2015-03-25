@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<QBWCXML>
+    <AppName>{{ QWC_APPLICATION_NAME }}</AppName>
+    <AppID></AppID>
+    <AppURL>{{ SITE_URL }}/WCWebService/WCWebService.asmx</AppURL>
+    <AppDescription>This application connects to the JCIS Web Portal and pulls in payments that have been approved by an Administrator</AppDescription>
+    <AppSupport>{{ SITE_URL }}/support/</AppSupport>
+    <UserName>jaywhy13</UserName>
+    <OwnerID>{E04440B5-95E5-4338-A878-A28A4587B54C}</OwnerID>
+    <FileID>{00390608-8828-4168-B982-B8FB8366A179}</FileID>
+    <QBType>QBFS</QBType>
+    <Scheduler>
+        <RunEveryNMinutes>{{ minutes }}</RunEveryNMinutes>
+    </Scheduler>
+</QBWCXML>
